@@ -1,0 +1,25 @@
+h4 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 23px;
+    color: #EB6440;
+}
+
+body {
+    background-image: url('https://p4.wallpaperbetter.com/wallpaper/285/939/590/light-background-wallpaper-preview.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+form {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+thead,
+tbody {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: smaller;
+}
+

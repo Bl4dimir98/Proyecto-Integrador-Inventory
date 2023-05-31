@@ -1,0 +1,34 @@
+<div class="card card-body card border-light bg-light">
+    <form action="" method="POST">
+
+        <h3>Salida de productos</h3>
+
+        <div class="form-group">
+            <p>Ingrese el número de la factura</p>
+            <input type="number" class="form-control" name="id_venta" placeholder="&#35; ID venta">
+        </div>
+        <div class="form-group">
+            <p>Ingrese la fecha de la venta</p>
+            <input type="date" class="form-control" name="fechaventa" placeholder="Fecha de venta" required>
+        </div>
+        <div class="form-group">
+            <p>Precio</p>
+            <input type="number" step="any" class="form-control" name="precioventa"
+                placeholder="&#65284; Ingrese el precio de venta" required>
+        </div>
+        <div class="form-group">
+            <p>Cantidad</p>
+            <input type="number" class="form-control" name="cantidad"
+                placeholder="&#128722; Ingrese la cantidad de productos vendidos" required>
+        </div>
+        <div class="form-group">
+            <select name="estados">
+                <p>Escoja el producto</p>
+
+            </select>
+        </div>
+        <button class="btn btn-success btn-block">
+            GUARDAR
+        </button>
+    </form>
+</div>
