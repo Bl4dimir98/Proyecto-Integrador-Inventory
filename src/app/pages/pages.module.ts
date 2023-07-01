@@ -5,12 +5,12 @@ import { CategoryComponent } from './category/category.component';
 import { ProductComponent } from './product/product.component';
 import { PagesComponent } from './pages.component';
 import { NotFoundComponent } from './not-found/not-found.component';
-import { ProveedoresComponent } from './proveedores/proveedores.component';
-import { SalidaProductosComponent } from './salida-productos/salida-productos.component';
-import { ComprasComponent } from './compras/compras.component';
 import { SharedModule } from '../shared/shared.module';
 import { Router, RouterModule } from '@angular/router';
 import { AppRoutingModule } from '../app-routing.module';
+import { PurchaseComponent } from './purchase/purchase.component';
+import { SupplierComponent } from './supplier/supplier.component';
+import { EmployeeComponent } from './employee/employee.component';
 
 
 
@@ -21,9 +21,9 @@ import { AppRoutingModule } from '../app-routing.module';
         ProductComponent,
         PagesComponent,
         NotFoundComponent,
-        ProveedoresComponent,
-        SalidaProductosComponent,
-        ComprasComponent,
+        PurchaseComponent,
+        SupplierComponent,
+        EmployeeComponent,
     ],
     exports: [
         DashboardComponent,
@@ -31,10 +31,10 @@ import { AppRoutingModule } from '../app-routing.module';
         ProductComponent,
         PagesComponent,
         NotFoundComponent,
-        ProveedoresComponent,
-        SalidaProductosComponent,
-        ComprasComponent,
         SharedModule,
+        PurchaseComponent,
+        SupplierComponent,
+        EmployeeComponent,
     ],
     imports: [
         CommonModule,

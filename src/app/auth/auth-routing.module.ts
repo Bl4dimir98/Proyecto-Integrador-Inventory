@@ -7,9 +7,6 @@ import { NotFoundComponent } from 'src/app/pages/not-found/not-found.component';
 import { ProductComponent } from 'src/app/pages/product/product.component';
 import { LoginComponent } from 'src/app/auth/login/login.component';
 import { RegisterComponent } from 'src/app/auth/register/register.component';
-import { ProveedoresComponent } from '../pages/proveedores/proveedores.component';
-import { ComprasComponent } from '../pages/compras/compras.component';
-import { SalidaProductosComponent } from '../pages/salida-productos/salida-productos.component';
 
 const routes: Routes = [
   { path: 'login', component: LoginComponent },
@@ -17,9 +14,6 @@ const routes: Routes = [
   { path: 'dashboard', component: DashboardComponent },
   { path: 'product', component: ProductComponent },
   { path: 'category', component: CategoryComponent },
-  { path: 'proveedor', component: ProveedoresComponent },
-  { path: 'compras', component: ComprasComponent },
-  { path: 'salidaProductos', component: SalidaProductosComponent },
 
 ];
 
