@@ -1,0 +1,57 @@
+/*
+Template Name: Admin pro Admin
+Author: Wrappixel
+Email: niravjoshi87@gmail.com
+File: scss
+*/
+/*
+Template Name: Admin Pro Admin
+Author: Wrappixel
+Email: niravjoshi87@gmail.com
+File: scss
+*/
+/*Theme Colors*/
+/*bootstrap Color*/
+/*Light colors*/
+/*Normal Color*/
+/*Extra Variable*/
+/*******************
+Login register and recover password Page
+******************/
+
+.login-box {
+    width: 400px;
+    margin: 0 auto;
+}
+
+#recoverform {
+    display: none;
+}
+
+.login-sidebar .login-box {
+    right: 0px;
+    position: absolute;
+    height: 80%;
+}
+
+#card {
+    border-radius: 10px;
+    border: solid #f7f7f7;
+    box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.1);
+    transition: all 400ms ease;
+}
+
+#card:hover {
+    transform: scale(1.01);
+}
+
+.imagen {
+    margin: 0 auto;
+    width: 15%;
+    height: 15%;
+}
+
+h3 {
+    color: #818181;
+    font-weight: bold;
+}

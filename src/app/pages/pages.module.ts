@@ -11,6 +11,7 @@ import { AppRoutingModule } from '../app-routing.module';
 import { PurchaseComponent } from './purchase/purchase.component';
 import { SupplierComponent } from './supplier/supplier.component';
 import { EmployeeComponent } from './employee/employee.component';
+import { ShowProductsComponent } from './show-products/show-products.component';
 
 
 
@@ -24,6 +25,7 @@ import { EmployeeComponent } from './employee/employee.component';
         PurchaseComponent,
         SupplierComponent,
         EmployeeComponent,
+        ShowProductsComponent,
     ],
     exports: [
         DashboardComponent,
@@ -35,6 +37,7 @@ import { EmployeeComponent } from './employee/employee.component';
         PurchaseComponent,
         SupplierComponent,
         EmployeeComponent,
+        ShowProductsComponent
     ],
     imports: [
         CommonModule,

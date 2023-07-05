@@ -9,6 +9,8 @@ import { PagesComponent } from 'src/app/pages/pages.component';
 import { SupplierComponent } from './supplier/supplier.component';
 import { PurchaseComponent } from './purchase/purchase.component';
 import { EmployeeComponent } from './employee/employee.component';
+import { ShowProductsComponent } from './show-products/show-products.component';
+
 
 const routes: Routes = [
   // rutas protegidas
@@ -21,8 +23,9 @@ const routes: Routes = [
       { path: 'supplier', component: SupplierComponent },
       { path: 'purchase', component: PurchaseComponent },
       { path: 'employee', component: EmployeeComponent },
+      { path: 'showProduct', component: ShowProductsComponent },
 
-      { path: '', redirectTo: '/dashboard/', pathMatch: 'full' },
+      { path: '', redirectTo: '/dashboard', pathMatch: 'full' },
       // { path: '**', component: NotFoundComponent },
     ]
   },
